@@ -1,0 +1,10 @@
+create database _Article_;
+use _Article_  
+
+CREATE TABLE `Article` (`id` int(11) NOT NULL AUTO_INCREMENT  ,
+						`designation` varchar(255) NOT NULL,
+						`prix` float(11) NOT NULL,
+						`qte` int(11) NOT NULL,
+    primary key (`id`)
+) ;
+ALTER TABLE Article AUTO_INCREMENT = 1;

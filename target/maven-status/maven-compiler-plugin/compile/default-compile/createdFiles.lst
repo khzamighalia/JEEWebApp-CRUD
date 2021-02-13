@@ -1,0 +1,7 @@
+web\ControleurServlet.class
+services\SArticleDAO.class
+models\Article.class
+web\ProduitModel.class
+repositories\IArticleDAO.class
+web\defaultServlet.class
+connectiondb\Singleton.class
